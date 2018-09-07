@@ -1,0 +1,250 @@
+{
+  "User" : [
+    {
+      "username": "sadour.mehdi@gmail.com",
+      "first_name": "Mehdi",
+      "last_name": "SADOUR",
+      "email": "sadour.mehdi@gmail.com",
+      "password": "azerty",
+      "is_staff": true
+    }
+  ],
+  "Skills" : [
+    {"name" :"Python", "level": 80},
+    {"name" :"Django", "level": 80},
+    {"name" :"Flask", "level": 50},
+    {"name" :"Pycharm", "level": 50},
+    {"name" :"Base de données - SQL" , "level": 70},
+    {"name" :"HTML/CSS" , "level": 50},
+    {"name" :"Bootstrap" , "level": 20},
+    {"name" :"Javascript (Jquery)" , "level": 30},
+    {"name" :"GitHub" , "level": 40},
+    {"name" :"Windows" , "level": 60},
+    {"name" :"Linux" , "level": 60},
+    {"name" :"Modelisation (Merise/UML)" , "level": 80},
+    {"name" :"Anglais" , "level": 60}
+  ],
+  "Education" : [
+    {
+      "name": "Parcours Développeur d'application",
+      "option": "Python",
+      "school": "OpenClassrooms",
+      "year": "2018",
+      "place": "En ligne",
+      "description": "Le parcours développeur d'applications (option Python) est un parcours visant à apprendre à développer des applications web sous python (Django/Flask). Ce diplôme m'a permis de consolider mes compétences Python (que j'ai acquis lors d'expériences professionnelles). En matière de bibliothèque Python, j'ai pu utiliser Pytest (pour les tests unitaires), PyGame (Création du jeu sur PC) ainsi que psycopg (Utilisation de PostgreSQL via Python)."
+    },
+
+    {
+      "name": "Licence professionnelle Systèmes Informatiques et Logiciels",
+      "option": "Genie logiciel",
+      "school": "IUT Paris Descarte",
+      "year": "2015",
+      "place": "Paris 16e",
+      "description": "La licence professionnelle systèmes Informatique et Logiciels est un diplôme m'ayant permis de consolider les compétences que j'ai acquises lors de mon BTS. Les languages de programmation et de base de données étaient les mêmes (Java, SQL, PHP)."
+    },
+
+    {
+      "name": "BTS Services Informatiques aux Organisations",
+      "option": "Solution Logiciel et Application Metier",
+      "school": "Lycée Louis Armand",
+      "year": "2014",
+      "place": "Nogent-sur-Marne (94)",
+      "description": "Le BTS Services Informatiques aux Organisations option Solution Logiciel et Application Metier est un diplome qui m'a permis d'acquerir les base pour developper des applications web (PHP, J2EE),mobile (Java, XML) ainsi que la gestion de base de données (SQL, MySQL, PostgreSQL). "
+    },
+
+    {
+      "name": "Baccalauréat Sciences et Technologies Industrielles",
+      "option": "Genie Electrotechnique",
+      "school": "Lycée Raspail",
+      "year": "2011",
+      "place": "Paris 14e",
+      "description": "Le baccalauréat sciences et technologies industrielles génie Électrotechnique, appelé aussi 'ET' pour Électrotechnique et autrefois 'Bac F3' est un baccalauréat technologique préparé dans les lycées généraux et technologiques. Ce baccalauréat est destiné aux élèves de 1re et de Terminale de lycée qui s'intéressent à l'électrotechnique après une seconde générale et technologique ou un diplôme professionnel : BEP en suivant une Première d'adaptation"
+    }
+  ],
+
+  "Experience": [
+    {
+      "company": "Omnicom",
+      "job": "Développeur python",
+      "place": "Issy les Moulineaux (92)",
+      "description_mission": "Ma mission principal etait l'amelioration de l’application « CRIT » (Collecte et Remontée d’Informations Terrain) via le framework pylons. CRIT est un outil numérique qui dispose d’un éventail de fonctionnalités pour dynamiser et fluidifier le partage d’informations entre les équipes du terrain et celles du siège des clients. La version de Python utilisée était la 2.7",
+      "description_company": "Omnicom est la holding du deuxième plus important réseau d'agences de publicité et de communication mondial avec WPP Group et Publicis. Il est présent dans tous les métiers de la communication : publicité, marketing direct, relations publiques, lobbying, service marketing, communication interactive et achat d'espace.",
+      "type_experience": "Mission",
+      "date_begin": "2017-04-01",
+      "date_end": "2017-10-01",
+      "technologies": [
+        {"name" : "Windows", "is_main": false},
+        {"name" : "Python", "is_main": true},
+        {"name" : "SQL", "is_main": false},
+        {"name" : "HTML", "is_main": false},
+        {"name" : "CSS", "is_main": false},
+        {"name" : "Jquery", "is_main": false}
+      ],
+      "tasks": [
+        {"name" : "Création du template (HTML/CSS) CRIT relatif au client"},
+        {"name" : "Création des methodes Python afin d'interagir avec la base de données"},
+        {"name" : "Création des fichier Javascript afin d'ecrire les requetes ajax pour facilité la communication entre client et serveur"}
+      ]
+    },
+
+    {
+      "company": "NETEVEN",
+      "job": "Développeur Python",
+      "place": "Paris 19e",
+      "description_mission": "Ma mission principal etait le maintien du logiciel « Neteven »  via la correction des bugs dans le logiciel remontés via des tickets d’incident. La version de python utilisée était la 2.5",
+      "description_company": "Creer en 2015 par l'ancien directeur d'Ebay, Neteven est une societé d'e-commerce specialisé dans l'edition de logiciel applicatif. Le logiciel NETEVEN fait la correspondance entre leurs clients avec des places de marchés.",
+      "type_experience": "Stage",
+      "date_begin": "2016-06-01",
+      "date_end": "2016-12-01",
+      "technologies": [
+        {"name" : "Linux", "is_main": false },
+        {"name" : "Python", "is_main": true },
+        {"name" : "SQL", "is_main": false }
+      ],
+      "tasks": [
+        {"name" : "Corrections des tickets d'incidents"}
+      ]
+    },
+
+    {
+      "company": "ALYOTECH",
+      "job": "Développeur Python/Django",
+      "place": "Antony (92)",
+      "description_mission": "L’objectif principal de la mission qui m’a été confié est d’intégrer au mieux les équipes du Centre de compétences, pour maintenir le dictionnaire de données(ajout, correction et/ou modification) afin d’améliorer/optimiser le travail des utilisateurs au sein de ce centre. Pour cette mission, j'ai utilisé le framework web Django (1.7) ainsi que la version 2.7 de Python.",
+      "description_company": "Alyotech est une societé de service spécialisée dans le secteur d'activité du conseil en systèmes et logiciels informatiques.",
+      "type_experience": "Stage",
+      "date_begin": "2015-05-1",
+      "date_end": "2015-11-1",
+      "technologies": [
+        {"name" : "Windows", "is_main": false },
+        {"name" : "Python", "is_main": true },
+        {"name" : "HTML", "is_main": false },
+        {"name" : "CSS", "is_main": false },
+        {"name" : "JavaScript", "is_main": false },
+        {"name" : "SQL", "is_main": false }
+      ],
+      "tasks": [
+        {"name" : "Création/amélioration des formulaires relatifs aux types de données utilisées"},
+        {"name" : "Manipulation de fichier Excel via la bibliothèque python «xlrd» et «xlsx »"},
+        {"name" : "Création de graphe via la bibliothèque Python «Graphviz»;"},
+        {"name" : "La rédaction de la documentation technique concernant l’utilisation du dictionnaire de données ;"},
+        {"name" : "Donner la possibilité d’afficher ou de masquer les colonnes concernant les données en javascript lors de la visualisation des données ;"},
+        {"name" : "Modification de table dans la base de données SQLite en SQL ; "}
+      ]
+    },
+
+    {
+      "company": "FINANCESTESETUDES",
+      "job": "Développeur android",
+      "place": "Paris 11e",
+      "description_mission": "La mission que j'ai du effectuer était de développement d’une application sous Android permettant de calculer le budget de l’étudiant en fonction de ses ressources et ses besoins.",
+      "description_company": "Financetesetudes.com est un service gratuit de recherche de prêt étudiant et de mise en relation avec les banques.",
+      "type_experience": "Stage",
+      "date_begin": "2014-01-01",
+      "date_end": "2014-03-01",
+      "technologies": [
+        {"name" : "Linux", "is_main": false },
+        {"name" : "Java", "is_main": false },
+        {"name" : "XML",  "is_main": false }
+      ],
+      "tasks": [
+        {"name" : "Création des maquettes"},
+        {"name" : "Creations des vues en XML"},
+        {"name" : "Création des fonctions de calculs afin de les associer à chaque vues"}
+      ]
+    },
+
+    {
+      "company": "PRESSI",
+      "job": "Développeur PHP",
+      "place": "Sucy-en-brie (94)",
+      "description_mission": "La mission que j'ai du effectuer était le codage d'un script (en PHP) permettant la migration des données d’un CRM propriétaire vers SugarCRM. Le script récupérait l’ensemble des données du CRM propriétaire, de les adapter au nouveau CRM puis de les injecter dans la base de données du nouveau CRM.",
+      "description_company": "PRESSI est une societé spécialisée dans le secteur d'activité de la réparation d'ordinateurs et d'équipements périphériques.",
+      "type_experience": "Stage",
+      "date_begin": "2013-06-01",
+      "date_end": "2013-07-01",
+      "technologies": [
+        {"name" : "Linux","is_main": false },
+        {"name" : "PHP", "is_main": false },
+        {"name" : "MySQL", "is_main": false },
+        {"name" : "HTML", "is_main": false },
+        {"name" : "JavaScript", "is_main": false}
+      ],
+      "tasks": [
+        {"name" : "Analyse de la structure des données à manipuler"},
+        {"name" : "Elaboration du script de migrations des données"},
+        {"name" : "Execution final du script"}
+      ]
+    },
+
+    {
+      "company": "Maison des associations",
+      "job": "Développeur web",
+      "place": "Paris 4e",
+      "description_mission": "Durant ce stage, j'ai développé le site www.anapt.fr avec HTML/CSS. En binôme avec mon collègue, notre mission a été de créer les maquettes puis dans un second temps de développer le site web. Je me suis chargé de la partie HTML, et lui de la partie CSS.",
+      "description_company": "Espaces de rencontre et de dialogue, les Maisons des associations (MDA), une par arrondissement, ont pour mission d'accueillir et d'accompagner les associations dans leur développement et d'informer les habitants sur la vie associative locale.",
+      "type_experience": "Stage",
+      "date_begin": "2012-06-01",
+      "date_end": "2012-07-01",
+      "technologies": [
+        {"name" : "Windows", "is_main": false },
+        {"name" : "HTML", "is_main": false },
+        {"name" : "CSS", "is_main": false }
+      ],
+      "tasks": [
+        {"name" : "Création des maquettes"},
+        {"name" : "Création des pages web (HTML/CSS)"},
+        {"name" : "Mise en ligne"}
+      ]
+    }
+  ],
+  "PersonalProject" : [
+    {
+      "name" : "Mac Gyver - Labyrinthe",
+      "description" : "Dans ce labyrinthe 2D, MacGyver aurait été enfermé. La sortie est surveillée par un garde du corps. Pour le distraire, il vous faut réunir les éléments suivants : une aiguille, un petit tube en plastique et de l'éther, ils permettront à MacGyver de créer une seringue et d'endormir le garde afin de s'echapper du labyrinthe. Pour ce projet, j'ai utilisé la bibliothèque PyGame.",
+      "github" : "https://github.com/msadour/MacGyver",
+      "link" : "https://github.com/msadour/MacGyver",
+      "period" : "2018-03-01",
+      "technologies": [
+        {"name" : "Python", "is_main": false }
+      ],
+      "num_project": "0",
+      "img": "macgyver"
+    },
+    {
+      "name" : "GrandPy bot",
+      "description" : "L'application web GrandPy Bot permet d'obtenir l'emplacement (via la bibliotheque python Google Maps) ainsi que de la description (via la bibliotheque python  Wikipedia) de ce que l'utilisateur aura saisi dans le formulaire.",
+      "github" : "https://github.com/msadour/oc-grandpybot",
+      "link" : "https://oc-grandpybot.herokuapp.com/",
+      "period" : "2018-06-01",
+      "technologies": [
+        {"name" : "Python", "is_main": false },
+        {"name" : "Flask", "is_main": false },
+        {"name" : "HTML/CSS", "is_main": false },
+        {"name" : "Bootstrap", "is_main": false },
+        {"name" : "Jquery", "is_main": false }
+      ],
+      "num_project": "1",
+      "img": "grandpy"
+    },
+    {
+      "name" : "Pur beurre",
+      "description" : "L'application web Pur beurre vous permet de trouver des substitut d'aliment plus sain à celui que vous aurez recherché. Le critere de sainteté d'un aliment se mesure à son nutriscore ('a' signifie le maximum de sainteté, 'e' le plus faible).",
+      "github" : "https://github.com/msadour/pur_beurre",
+      "link" : "https://ms-purbeurre.herokuapp.com/website_pur_beurre/home",
+      "period" : "2018-08-01",
+      "technologies": [
+        {"name" : "Python", "is_main": false },
+        {"name" : "Django", "is_main": false },
+        {"name" : "PostgreSQL", "is_main": false },
+        {"name" : "HTML/CSS", "is_main": false },
+        {"name" : "Bootstrap", "is_main": false },
+        {"name" : "Jquery", "is_main": false }
+      ],
+      "num_project": "0",
+      "img": "pur_beurre"
+    }
+  ]
+}
+
+

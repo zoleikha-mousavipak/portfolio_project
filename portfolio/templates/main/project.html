@@ -1,0 +1,62 @@
+{% load staticfiles %}
+<h1> Personal project </h1>
+<hr width="80%" class="hr-blue" />
+<br />
+<table border="0">
+    <tr>
+        {% for project in projects %}
+            <th>
+
+                <table border="0" class="element-white" class="table-project">
+                       <!-- style="background: url ({% static 'img/' %}{{project.name}}.png);" -->
+
+
+                    <tr>
+                        <th colspan="2"> <h3> <img src="{% static 'img/' %}{{project.name}}.png"> {{project.name}} </h3> </th>
+                    </tr>
+
+                    <tr>
+                        <th colspan="2">
+                            <h4>Description :</h4>
+                            <p class="text"> {{project.description}} </p>
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td>
+                            <h4>Link :</h4>
+                            <a href="{{ project.github }}" id="github"> <img src="{% static 'img/github.png' %}"> </a>
+                            <a href="{{ project.link }}" id="link_web"> <img src="{% static 'img/link.png' %}"> </a>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <th colspan="2">
+                            <h4>Technologies used :</h4>
+                            <ul>
+                                {% for tech in project.technologies.all %}
+                                    <li> <p class="text"> {{ tech.name }} </p> </li>
+                                {% endfor %}
+
+                            </ul>
+
+                        </th>
+                    </tr>
+                </table>
+            </th>
+
+
+            {% if project.num_project == 1  %}
+                </TR>
+
+
+                <TR>
+            {% endif %}
+
+        {% endfor %}
+    </tr>
+</table>
+<br /><br />

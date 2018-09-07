@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+        <link rel="shortcut icon" type="image/x-icon" href="{% static 'img/icon-2.png' %}" />
+        <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.css' %}">
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+    <body>
+        <div id="body">
+            <div class="row" id="div_menu">
+                {% include 'menu/menu.html' %}
+            </div>
+
+            <div class="row" id="header">
+                <img src="{% static 'img/back_img2.png' %}">
+            </div>
+
+
+            <div class="row">
+                {% block content %}
+                {% endblock %}
+            </div>
+
+            <div id="footer" class="row">
+                {% include 'footer.html' %}
+            </div>
+
+        </div>
+
+
+
+        <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>

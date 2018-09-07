@@ -1,0 +1,21 @@
+<h1> Skills </h1>
+<hr width="80%" class="hr-yellow" />
+
+<table border="0">
+    {% for skill in skills %}
+        <tr>
+            <th>{{skill.name}} </th>
+            <th>
+               <div class="progress">
+                  <progress id="avancement" class="progressBar" value="{{skill.level}}" max="100"></progress>
+                  <div class="progressValue">{{skill.level}} %</div>
+               </div>
+            </th>
+
+            <th id="level">
+                <div id="txt_level">{{skill.level}} % </div>
+            </th>
+        </tr>
+    {% endfor %}
+</table><br />
+

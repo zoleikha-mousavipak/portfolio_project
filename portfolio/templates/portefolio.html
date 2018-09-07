@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div id="home">
+        {% include 'main/home.html'  %}
+    </div>
+    <div id="experience">
+        {% include 'main/experience.html'  %}
+    </div>
+
+    <div id="formation">
+        {% include 'main/formation.html'  %}
+    </div>
+
+    <div id="skills">
+        {% include 'main/skills.html'  %}
+    </div>
+
+    <div id="project">
+        {% include 'main/project.html'  %}
+    </div>
+
+    <div id="contact">
+        {% include 'main/contact.html'  %}
+    </div>
+{% endblock %}

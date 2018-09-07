@@ -1,0 +1,249 @@
+{
+  "User" : [
+    {
+      "username": "sadour.mehdi@gmail.com",
+      "first_name": "Mehdi",
+      "last_name": "SADOUR",
+      "email": "sadour.mehdi@gmail.com",
+      "password": "azerty",
+      "is_staff": true
+    }
+  ],
+  "Skills" : [
+    {"name" :"Python", "level": 90},
+    {"name" :"Django", "level": 80},
+    {"name" :"Flask", "level": 50},
+    {"name" :"Pycharm", "level": 50},
+    {"name" :"Base de données - SQL" , "level": 70},
+    {"name" :"HTML/CSS" , "level": 65},
+    {"name" :"Bootstrap" , "level": 20},
+    {"name" :"Javascript (Jquery)" , "level": 40},
+    {"name" :"GitHub" , "level": 40},
+    {"name" :"Windows" , "level": 60},
+    {"name" :"Linux" , "level": 60},
+    {"name" :"Modelisation (Merise/UML)" , "level": 80},
+    {"name" :"Anglais" , "level": 60}
+  ],
+  "Education" : [
+    {
+      "name": "Formation application development",
+      "option": "Python (fourth-year university level) - ",
+      "school": "OpenClassrooms",
+      "year": "2018",
+      "place": "Online",
+      "description": "This formation (language python) is a formation for learn to developp web application with Python (Django/Flask). This formation allowed me to consolidate my Python skills (that I got during professional experience). In library Python, I could use Pytest (for unit test), PyGame (Create video game on computer) and psycopg (It's use PostgreSQL with Python)."
+
+    },
+
+    {
+      "name": "Professionnal degree Computer system and software",
+      "option": "Software development (degree level) - ",
+      "school": "IUT Paris Descarte",
+      "year": "2015",
+      "place": "Paris 16e",
+      "description" : "Professionnal degree Computer system and software is a degree which consolidate my skills in BTEC Higher National Diploma. Programmation langage and database was the same than previous degree (Java, SQL, PHP)."
+    },
+
+    {
+      "name": "BTEC Higher National Diploma IT Services to Organizations",
+      "option": "Software Solution and Application (second-year university level) - ",
+      "school": "high school Louis Armand",
+      "year": "2014",
+      "place": "Nogent-sur-Marne (94)",
+      "description": "The BTS IT Services Organizations Solution Software and Application Business is a diploma that allowed me to acquire the base to develop web applications (PHP, J2EE), mobile (Java, XML) and database management (SQL, MySQL, PostgreSQL)."
+    },
+
+    {
+      "name": "Bachelor of Science and Industrial Technologies",
+      "option": "Electrical (Bachelor) - ",
+      "school": "high school Raspail",
+      "year": "2011",
+      "place": "Paris 14e",
+      "description": "The Bachelor of Science and Industrial Technologies in Electrical Engineering, also called ET for Electrical Engineering and formerly F3 is a Bachelor of Technology prepared in high schools and technology. This baccalaureate is intended for students of 1 st and 12th year of high school who specializes in electrical engineering after a second general and technological or a professional diploma: BEP following a first adaptation."
+    }
+  ],
+
+  "Experience": [
+    {
+      "company": "Omnicom",
+      "job": "Python developper",
+      "place": "Issy les Moulineaux (92)",
+      "description_mission": "My main mission was the improvement of the application 'CRIT' (Collecte et Remontée d’Informations Terrain) with the framework pylons. CRIT is a digital tool that has a range of features to dynamize and streamline the sharing of information between teams in the field (shop) and those in the client's headquarters. The version of Python used was 2.7",
+      "description_company": "Omnicom is the holding of the second largest network of advertising and global advertising agencies with WPP Group and Publicis. He is present in all communication professions: advertising, direct marketing, public relations, lobbying, marketing department, interactive communication and purchase of space.",
+      "type_experience": "Mission",
+      "date_begin": "2017-04-01",
+      "date_end": "2017-10-01",
+      "technologies": [
+        {"name" : "Windows", "is_main": false},
+        {"name" : "Python", "is_main": true},
+        {"name" : "SQL", "is_main": false},
+        {"name" : "HTML", "is_main": false},
+        {"name" : "CSS", "is_main": false},
+        {"name" : "Jquery", "is_main": false}
+      ],
+      "tasks": [
+        {"name" : "Create template (HTML/CSS) CRIT for customer ;"},
+        {"name" : "Create Python function for use database ;"},
+        {"name" : "Create Javascript files with AJAX request for make link between customer and server."}
+      ]
+    },
+
+    {
+      "company": "NETEVEN",
+      "job": "Python developper",
+      "place": "Paris 19e",
+      "description_mission": "My main mission was the maintenance of the software 'Neteven' by the correction of bugs in the software sent via incident tickets. The version of python used was 2.5.",
+      "description_company": "Created in 2015 by the former director of Ebay, Neteven is an e-commerce company specializing in software application publishing. NETEVEN software matches their customers with marketplaces.",
+      "type_experience": "Period training",
+      "date_begin": "2016-06-01",
+      "date_end": "2016-12-01",
+      "technologies": [
+        {"name" : "Linux", "is_main": false },
+        {"name" : "Python", "is_main": true },
+        {"name" : "SQL", "is_main": false }
+      ],
+      "tasks": [
+        {"name" : "Corrections of incident tickets."}
+      ]
+    },
+
+    {
+      "company": "ALYOTECH",
+      "job": "Django developper",
+      "place": "Antony (92)",
+      "description_mission": "My mission was to better integrate the teams of the Competence Center, to maintain the data dictionary (add, optimize and / or edit) in order to improve / optimize the work of the users within this center. For this mission, I used the Django web framework (1.7) and the Python version 2.7.",
+      "description_company": "Alyotech is a service company specializing in the computer systems and software consulting business sector.",
+      "type_experience": "Period training",
+      "date_begin": "2015-05-1",
+      "date_end": "2015-11-1",
+      "technologies": [
+        {"name" : "Windows", "is_main": false },
+        {"name" : "Python", "is_main": true },
+        {"name" : "HTML", "is_main": false },
+        {"name" : "CSS", "is_main": false },
+        {"name" : "JavaScript", "is_main": false },
+        {"name" : "SQL", "is_main": false }
+      ],
+      "tasks": [
+        {"name" : "Create / improve forms related to the types of data used ;"},
+        {"name" : "Manipulation of Excel file by the python library 'xlrd' and 'xlsx' ;"},
+        {"name" : "Graph creation (link between datas) by the Python library 'Graphviz' ;"},
+        {"name" : "Write technical documentation about how use data dictionary ;"},
+        {"name" : "Give the possibility to show or hide the data's columns when viewing thems (Javascript) ;"},
+        {"name" : "Modification of table in SQLite database in SQL."}
+      ]
+    },
+
+    {
+      "company": "FINANCESTESETUDES",
+      "job": "Android developper",
+      "place": "Paris 11e",
+      "description_mission": "My mission is develop an Android application to calculate the budget of the student according them resources and needs.",
+      "description_company": "Financetesetudes.com is a free student loan research and banking service.",
+      "type_experience": "Period training",
+      "date_begin": "2014-01-01",
+      "date_end": "2014-03-01",
+      "technologies": [
+        {"name" : "Linux", "is_main": false },
+        {"name" : "Java", "is_main": false },
+        {"name" : "XML",  "is_main": false }
+      ],
+      "tasks": [
+        {"name" : "Creation of application document ;"},
+        {"name" : "Creation of views in XML ;"},
+        {"name" : "Creating calculation functions to associate them with each view."}
+      ]
+    },
+
+    {
+      "company": "PRESSI",
+      "job": "PHP developper",
+      "place": "Sucy-en-brie (94)",
+      "description_mission": "My mission is coding of a script (in PHP) allowing the migration of data from a proprietary CRM to SugarCRM. The script retrieved all the data from the proprietary CRM, adapted them to the new CRM and then fed them into the database of the new CRM.",
+      "description_company": "PRESSI is a company specializing in the business of repairing computers and peripheral equipment.",
+      "type_experience": "Period training",
+      "date_begin": "2013-06-01",
+      "date_end": "2013-07-01",
+      "technologies": [
+        {"name" : "Linux","is_main": false },
+        {"name" : "PHP", "is_main": false },
+        {"name" : "MySQL", "is_main": false },
+        {"name" : "HTML", "is_main": false },
+        {"name" : "JavaScript", "is_main": false}
+      ],
+      "tasks": [
+        {"name" : "Analysis of the structure of the data to be manipulated ;"},
+        {"name" : "Development of the data migration script ;"},
+        {"name" : "Final execution of the script."}
+      ]
+    },
+
+    {
+      "company": "Maison des associations",
+      "job": "Web developper",
+      "place": "Paris 4e",
+
+      "description_mission": "During this internship, I developed the site www.anapt.fr with HTML / CSS. In partnership with my colleague, our mission was to draw templates and then to develop the website. I took care of the HTML part, and he of the CSS part.",
+      "description_company": "Spaces of meeting and dialogue, the Houses of the associations (MDA), one by district, have for mission to welcome and to accompany the associations in their development and to inform the inhabitants on the associative life local.",
+      "type_experience": "Period training",
+      "date_begin": "2012-06-01",
+      "date_end": "2012-07-01",
+      "technologies": [
+        {"name" : "Windows", "is_main": false },
+        {"name" : "HTML", "is_main": false },
+        {"name" : "CSS", "is_main": false }
+      ],
+      "tasks": [
+        {"name" : "Drawing template ;"},
+        {"name" : "Create website (HTML/CSS) ;"},
+        {"name" : "Put it on-line"}
+      ]
+    }
+  ],
+  "PersonalProject" : [
+    {
+      "name" : "Mac Gyver - Labyrinth",
+      "description" : "In this 2D labyrinth, MacGyver would have been locked up. The exit is supervised by a bodyguard. To distract him, you need to combine the following: a needle, a small plastic tube and ether, they will allow MacGyver to create a syringe and to lull the guard to escape the labyrinth. For this project, I used the PyGame library.",
+      "github" : "https://github.com/msadour/MacGyver",
+      "link" : "https://github.com/msadour/MacGyver",
+      "period" : "2018-03-01",
+      "technologies": [
+        {"name" : "Python", "is_main": false }
+      ],
+      "num_project": "0"
+    },
+    {
+      "name" : "GrandPy bot",
+      "description" : "The GrandPy Bot web application give location (via the Google Maps python library) and description (via the Wikipedia python library) of what user form entry.",
+      "github" : "https://github.com/msadour/oc-grandpybot",
+      "link" : "https://oc-grandpybot.herokuapp.com/",
+      "period" : "2018-06-01",
+      "technologies": [
+        {"name" : "Python", "is_main": false },
+        {"name" : "Flask", "is_main": false },
+        {"name" : "HTML/CSS", "is_main": false },
+        {"name" : "Bootstrap", "is_main": false },
+        {"name" : "Jquery", "is_main": false }
+      ],
+      "num_project": "1"
+    },
+    {
+      "name" : "Pur beurre",
+      "description" : "Pur beurre is a web app who find a healthier food substitute for the one you've searched for. The criterion of holiness of a food is measured by its nutriscore (letter 'a' means the maximum of holiness, 'e' the weakest).",
+      "github" : "https://github.com/msadour/pur_beurre",
+      "link" : "https://ms-purbeurre.herokuapp.com/website_pur_beurre/home",
+      "period" : "2018-08-01",
+      "technologies": [
+        {"name" : "Python", "is_main": false },
+        {"name" : "Django", "is_main": false },
+        {"name" : "PostgreSQL", "is_main": false },
+        {"name" : "HTML/CSS", "is_main": false },
+        {"name" : "Bootstrap", "is_main": false },
+        {"name" : "Jquery", "is_main": false }
+      ],
+      "num_project": "0"
+    }
+  ]
+}
+
+

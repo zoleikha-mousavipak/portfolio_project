@@ -1,0 +1,193 @@
+/* ******************************** Common ******************************** */
+#header {
+    width: 102%;
+    margin-top: 2.9%;
+}
+
+body {
+    width : 99%
+}
+
+#body {
+    width: 95.9%;
+    margin-left: 1.1%
+}
+
+table {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.element-white {
+    background-color: white;
+    border-radius : 20px
+}
+
+.progress {
+  /*position: relative;*/
+  display: inline-block;
+  margin-top: 6%;
+  color: black
+}
+
+progress::-webkit-progress-value { background: #FFDD33; }
+progress::-moz-progress-bar { background: #FFDD33; }
+
+.progressBar {
+  width: 400px;
+  height: 22px;
+  background: #fff;
+  border: 1px solid #FFDD33;
+  padding: 3px;
+}
+
+.progressValue {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+}
+
+#level {
+    width: 10%;
+}
+
+#txt_level {
+    margin-left: 15%
+}
+
+/* ******************************** text ******************************** */
+
+a {
+    color: #339CFF ;
+    font-weight: bold;
+}
+
+h1, h3 {
+    text-align : center;
+    font-weight: bold;
+}
+
+h4 {
+    text-align : left;
+    font-style: italic;
+}
+
+/* ******************************** Menu ******************************** */
+
+.menu {
+  background-color: black;
+  /*border: 1px solid black;*/
+  position: fixed;
+  line-height: 40px;
+  text-align: center;
+}
+
+#menu_accueil {
+    margin-left : 0%;
+}
+
+#menu_experience {
+    margin-left : 15%;
+}
+
+#menu_formation {
+    margin-left : 30%;
+}
+
+#menu_competences {
+    margin-left : 45%;
+}
+
+#menu_projet {
+    margin-left : 60%;
+}
+
+#menu_contact {
+    margin-left : 75%;
+}
+
+#menu_empty {
+    margin-left : 91.57%;
+}
+
+/* ******************************** Main ******************************** */
+
+#home, #formation, #project {
+    background-color: #FFDD33;
+    width: 103%;
+    padding-top: 1em
+}
+
+#desc_home {
+    width: 80%;
+}
+
+#photo_me {
+    margin-bottom: 25%
+}
+
+#btn_dl {
+    margin-left: 32%;
+    width: 20%;
+}
+
+#experience, #skills, #contact {
+    background-color: #339CFF;
+    width: 103%;
+    padding-top: 1em
+}
+
+#first_col {
+    width: 10%;
+}
+
+.text {
+    text-align: left;
+    /*font-size: 13.5px;*/
+    font-size: 13.5px;
+    margin-left : 2%
+}
+
+.hr-blue {
+    border-color: #339CFF;
+}
+
+.hr-yellow {
+    border-color: #FFDD33;
+}
+
+#github {
+    margin-left : 5%
+}
+
+
+#link_web {
+    margin-left : 5%
+}
+
+.table-project {
+    width: 30%;
+    height: 30%
+}
+/* ******************************** Foot ******************************** */
+
+#about_me{
+    background-color: #345A61;
+    width: 103%;
+    height: 10%;
+    margin-left: 0%;
+    bottom: 0;
+    padding-top: 1em
+}
+
+#my_name {
+    margin-left : 45%;
+    color: #FFDD33;
+}
+
+#linkedin {
+    margin-left : 43%;
+}

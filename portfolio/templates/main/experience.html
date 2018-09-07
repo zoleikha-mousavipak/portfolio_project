@@ -1,0 +1,51 @@
+<h1>Professional experience</h1>
+<hr width="80%" class="hr-yellow" />
+<br />
+    {% for exp in experiences %}
+        <table border="0" class="element-white">
+            <tr>
+                <th id="first_col"> <h3>{{ exp.date_begin | date:"M Y" }} - {{ exp.date_end | date:"M Y" }} : {{ exp.job }} - {{ exp.company}} ( {{ exp.place }} ) </h3> </th>
+                <!--<th> {{ exp.job }} - {{ exp.company}} ( {{ exp.place }} )</th>-->
+            </tr>
+
+            <tr>
+                <th>
+                    <h4>About company :</h4>
+                    <p class="text"> {{ exp.description_company }} </p>
+
+                </th>
+            </tr>
+
+            <tr>
+                <th>
+                    <h4>My mission :</h4>
+                    <p class="text">{{ exp.description_mission }} </p>
+                </th>
+            </tr>
+
+            <tr>
+                <th>
+                    <h4>My tasks :</h4>
+                    <ul>
+                        {% for task in exp.tasks.all %}
+                        <li> <p class="text"> {{ task.name }} </p> </li>
+                        {% endfor %}
+
+                    </ul>
+                </th>
+            </tr>
+
+            <tr>
+                <th>
+                    <h4>Technologies used :</h4>
+                    <ul>
+                        {% for tech in exp.technologies.all %}
+                        <li> <p class="text"> {{ tech.name }} </p></li>
+                        {% endfor %}
+                    </ul>
+                </th>
+            </tr>
+
+
+        </table><br /><br />
+    {% endfor %}

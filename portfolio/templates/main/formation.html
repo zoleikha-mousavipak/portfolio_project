@@ -1,0 +1,15 @@
+<h1>diploma</h1>
+<hr width="80%" class="hr-blue" />
+<br />
+    {% for education in educations %}
+        <table border="0" class="element-white">
+            <tr>
+                <th><h4>{{ education.year }} : {{ education.name }} - option {{ education.option}} ( {{ education.place }} ) </h4></th>
+            </tr>
+
+            <tr>
+                <th> <p class="text"> {{ education.description }} </p></th>
+            </tr>
+
+        </table><br /><br />
+    {% endfor %}
