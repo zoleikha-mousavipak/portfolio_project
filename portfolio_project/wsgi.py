@@ -21,6 +21,6 @@ from django.core.wsgi import get_wsgi_application
 
 # sys.path.append('portfolio_project')
 os.environ.setdefault("PYTHON_EGG_CACHE", "portfolio_project.egg_cache")
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "PROJECT.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "portfolio_project.settings")
 
 application = get_wsgi_application()
