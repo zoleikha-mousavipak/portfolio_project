@@ -10,15 +10,17 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
 from django.utils.encoding import *
 
+try:
+    data = {
+        "experiences": [exp for exp in Experience.objects.all()],
+        "educations": [education for education in Education.objects.all()],
+        "skills": [skill for skill in Skills.objects.all()],
+        "projects": [project for project in PersonalProject.objects.all()],
+        "form_contact": ContactForm()
 
-data = {
-    "experiences": [exp for exp in Experience.objects.all()],
-    "educations": [education for education in Education.objects.all()],
-    "skills": [skill for skill in Skills.objects.all()],
-    "projects": [project for project in PersonalProject.objects.all()],
-    "form_contact": ContactForm()
-
-}
+    }
+except:
+    data = {}
 
 
 def home(request):
