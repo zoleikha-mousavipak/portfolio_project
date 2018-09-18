@@ -1,5 +1,6 @@
 from django.db import models
 import datetime
+import django.utils.timezone as tz
 
 class Technology(models.Model):
     name = models.CharField(max_length=100)
@@ -42,7 +43,7 @@ class PersonalProject(models.Model):
     description = models.TextField()
     github = models.CharField(max_length=100)
     link = models.CharField(max_length=100)
-    period = models.DateField(default=datetime.datetime.now())
+    period = models.DateField(default=tz.now())
     technologies = models.ManyToManyField(Technology)
     num_project = models.IntegerField()
     #img = models.CharField(max_length=100, default='')
