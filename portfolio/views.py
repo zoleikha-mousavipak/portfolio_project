@@ -99,7 +99,7 @@ def load_database(request):
     PersonalProject.objects.all().delete()
 
     current_directory = os.path.dirname(os.path.realpath(__file__))
-    path_json_file = current_directory + "\\load_data.json"
+    path_json_file = current_directory + "/load_data.json"
     my_dict = json.load(open(path_json_file))
     for classe, datas in my_dict.items():
         if classe == 'PersonalProject':
