@@ -8,7 +8,8 @@ from .models import *
 from .forms import *
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
-from django.utils.encoding import *
+import smtplib
+from django.core.mail import send_mail
 
 
 data = {
@@ -29,16 +30,21 @@ def send_mail_to_me(request):
     if request.method == 'GET':
         form = ContactForm()
     else:
+        server = smtplib.SMTP('smtp.gmail.com', 587)
         form = ContactForm(request.POST)
         if form.is_valid():
             subject = form.cleaned_data['subject']
             from_email = form.cleaned_data['from_email']
             message = form.cleaned_data['message']
             try:
-                send_mail(subject=subject,
-                          message=message,
-                          from_email=from_email,
-                          recipient_list=['sadour.mehdi@gmail.com'])
+                send_mail(subject,
+                          message,
+                          from_email,
+                          ['sadour.mehdi@gmail.com'])
+                # server.sendmail(
+                #     'sadour.mehdi@gmail.com',
+                #     from_email,
+                #     message)
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return render(request, 'portefolio.html', data)
