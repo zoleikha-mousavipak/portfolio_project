@@ -221,7 +221,7 @@
       "name" : "Pur beurre",
       "description" : "Pur beurre is a web app who find a healthier food substitute for the one you've searched for. The criterion of holiness of a food is measured by its nutriscore (letter 'a' means the maximum of holiness, 'e' the weakest).",
       "github" : "https://github.com/msadour/pur_beurre",
-      "link" : "https://ms-purbeurre.herokuapp.com/website_pur_beurre/home",
+      "link" : "https://ms-purbeurre.herokuapp.com/home",
       "period" : "2018-08-01",
       "technologies": [
         {"name" : "Python", "is_main": false },
