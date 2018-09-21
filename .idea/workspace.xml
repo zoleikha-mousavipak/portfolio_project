@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20cf70cf-e506-448f-a38f-d74fd4c2d56b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/templates/administration/manage_cv.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/templates/administration/manage_experience.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/templates/administration/manage_projet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/templates/administration/manage_skills.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/static/files/CV13052018.pdf" afterPath="$PROJECT_DIR$/portfolio/static/files/CV13052018.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/static/img/moi_photo.jpg" afterPath="$PROJECT_DIR$/portfolio/static/img/moi_photo.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/templates/main/home.html" afterPath="$PROJECT_DIR$/portfolio/templates/main/home.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,8 +78,8 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portfolio/templates/main/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            <state relative-caret-position="187">
+              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -790,8 +788,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/templates/main/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        <state relative-caret-position="187">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding />
         </state>
       </provider>
