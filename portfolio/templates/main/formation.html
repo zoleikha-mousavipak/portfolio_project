@@ -4,8 +4,11 @@
     {% for education in educations %}
         <table border="0" class="element-white">
             <tr>
-                <th><h4>{{ education.year }} : {{ education.name }} - {{ education.place }} </h4></th>
+                <th><h3 class="titleEducation">{{ education.year }} : {{ education.name }} - {{ education.place }} </h3></th>
             </tr>
+            <!--<tr>-->
+                <!--<th> <hr width="10%" class="hr-blue" /> </th>-->
+            <!--</tr>-->
 
             <tr>
                 <th> <p class="text"> {{ education.description }} </p></th>

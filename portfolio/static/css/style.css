@@ -65,7 +65,12 @@ a {
     font-weight: bold;
 }
 
-h1, h3 {
+h1 {
+    text-align : center;
+    font-weight: bold;
+}
+
+h3 {
     text-align : center;
     font-weight: bold;
 }
@@ -73,6 +78,7 @@ h1, h3 {
 h4 {
     text-align : left;
     font-style: italic;
+    margin-left: 1%
 }
 
 /* ******************************** Menu ******************************** */
@@ -172,6 +178,7 @@ h4 {
     width: 30%;
     height: 30%
 }
+
 /* ******************************** Foot ******************************** */
 
 #about_me{
