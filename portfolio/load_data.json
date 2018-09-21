@@ -1,14 +1,4 @@
 {
-  "User" : [
-    {
-      "username": "sadour.mehdi@gmail.com",
-      "first_name": "Mehdi",
-      "last_name": "SADOUR",
-      "email": "sadour.mehdi@gmail.com",
-      "password": "azerty",
-      "is_staff": true
-    }
-  ],
   "Skills" : [
     {"name" :"Python", "level": 90},
     {"name" :"Django", "level": 80},
@@ -26,7 +16,7 @@
   ],
   "Education" : [
     {
-      "name": "Formation application development",
+      "name": "Formation Python application development",
       "option": "Python (fourth-year university level) - ",
       "school": "OpenClassrooms",
       "year": "2018",
@@ -40,7 +30,7 @@
       "option": "Software development (degree level) - ",
       "school": "IUT Paris Descarte",
       "year": "2015",
-      "place": "Paris 16e",
+      "place": "Paris",
       "description" : "Professionnal degree Computer system and software is a degree which consolidate my skills in BTEC Higher National Diploma. Programmation langage and database was the same than previous degree (Java, SQL, PHP)."
     },
 
@@ -49,7 +39,7 @@
       "option": "Software Solution and Application (second-year university level) - ",
       "school": "high school Louis Armand",
       "year": "2014",
-      "place": "Nogent-sur-Marne (94)",
+      "place": "Paris",
       "description": "The BTS IT Services Organizations Solution Software and Application Business is a diploma that allowed me to acquire the base to develop web applications (PHP, J2EE), mobile (Java, XML) and database management (SQL, MySQL, PostgreSQL)."
     },
 
@@ -58,7 +48,7 @@
       "option": "Electrical (Bachelor) - ",
       "school": "high school Raspail",
       "year": "2011",
-      "place": "Paris 14e",
+      "place": "Paris",
       "description": "The Bachelor of Science and Industrial Technologies in Electrical Engineering, also called ET for Electrical Engineering and formerly F3 is a Bachelor of Technology prepared in high schools and technology. This baccalaureate is intended for students of 1 st and 12th year of high school who specializes in electrical engineering after a second general and technological or a professional diploma: BEP following a first adaptation."
     }
   ],
