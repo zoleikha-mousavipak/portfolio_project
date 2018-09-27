@@ -13,8 +13,8 @@ from django.core.mail import send_mail
 
 
 data = {
-    "experiences": [exp for exp in Experience.objects.all()],
-    "educations": [education for education in Education.objects.all()],
+    "experiences": [exp for exp in Experience.objects.all().order_by('date_begin').reverse()],
+    "educations": [education for education in Education.objects.all().order_by('year').reverse()],
     "skills": [skill for skill in Skills.objects.all()],
     "projects": [project for project in PersonalProject.objects.all()],
     "form_contact": ContactForm()

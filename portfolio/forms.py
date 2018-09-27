@@ -11,6 +11,6 @@ class ConnexionForm(forms.Form):
 
 
 class ContactForm(forms.Form):
-    from_email = forms.EmailField(label="Email", required=True, widget=forms.TextInput(attrs={'size': '50'}))
+    from_email = forms.EmailField(label="Your email", required=True, widget=forms.TextInput(attrs={'size': '50'}))
     subject = forms.CharField(label="Subject", widget=forms.TextInput(attrs={'size': '50'}))
     message = forms.CharField(label="Message", widget=forms.Textarea, required=True)
