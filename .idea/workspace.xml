@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20cf70cf-e506-448f-a38f-d74fd4c2d56b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/static/files/CV13052018.pdf" afterPath="$PROJECT_DIR$/portfolio/static/files/CV13052018.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/forms.py" afterPath="$PROJECT_DIR$/portfolio/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/views.py" afterPath="$PROJECT_DIR$/portfolio/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/load_data.json" afterPath="$PROJECT_DIR$/portfolio/load_data.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/templates/main/home.html" afterPath="$PROJECT_DIR$/portfolio/templates/main/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/templates/main/project.html" afterPath="$PROJECT_DIR$/portfolio/templates/main/project.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="17">
               <caret line="16" column="96" lean-forward="false" selection-start-line="16" selection-start-column="96" selection-end-line="16" selection-end-column="96" />
               <folding>
                 <element signature="e#16#61#0" expanded="true" />
@@ -51,6 +54,46 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="load_data.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portfolio/load_data.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4454">
+              <caret line="239" column="0" lean-forward="true" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portfolio/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portfolio/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/portfolio/templates/main/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -63,6 +106,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>home</find>
+      <find>header</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -79,7 +123,6 @@
         <option value="$PROJECT_DIR$/load_data_fr" />
         <option value="$PROJECT_DIR$/portfolio/templates/main/skills.html" />
         <option value="$PROJECT_DIR$/portfolio/templates/main/contact.html" />
-        <option value="$PROJECT_DIR$/portfolio/templates/main/project.html" />
         <option value="$PROJECT_DIR$/portfolio_project/conf/httpd-prefix.conf" />
         <option value="$PROJECT_DIR$/portfolio_project/conf/httpd-app.conf" />
         <option value="$PROJECT_DIR$/ProcFile" />
@@ -91,13 +134,14 @@
         <option value="$PROJECT_DIR$/test_db.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/portfolio_project/settings.py" />
-        <option value="$PROJECT_DIR$/portfolio/templates/main/home.html" />
-        <option value="$PROJECT_DIR$/portfolio/templates/main/experience.html" />
         <option value="$PROJECT_DIR$/portfolio/static/css/style.css" />
         <option value="$PROJECT_DIR$/portfolio/templates/main/formation.html" />
-        <option value="$PROJECT_DIR$/portfolio/load_data.json" />
         <option value="$PROJECT_DIR$/portfolio/forms.py" />
         <option value="$PROJECT_DIR$/portfolio/views.py" />
+        <option value="$PROJECT_DIR$/portfolio/load_data.json" />
+        <option value="$PROJECT_DIR$/portfolio/templates/main/home.html" />
+        <option value="$PROJECT_DIR$/portfolio/templates/main/project.html" />
+        <option value="$PROJECT_DIR$/portfolio/templates/main/experience.html" />
       </list>
     </option>
   </component>
@@ -193,6 +237,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -201,12 +263,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\pc\Documents\informatique\portfolio_project\portfolio" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Documents\informatique\portfolio_project\portfolio\static\files" />
       <recent name="C:\Users\pc\Documents\informatique\portfolio_project\portfolio" />
       <recent name="C:\Users\pc\Documents\informatique\portfolio_project" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Documents\informatique\portfolio_project\portfolio" />
     </key>
   </component>
   <component name="RunManager">
@@ -360,9 +423,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="1" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24444444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24444444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -400,9 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#318#327#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -452,9 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="14" lean-forward="false" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-          <folding>
-            <element signature="e#318#327#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -542,31 +599,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/templates/main/project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="37" column="51" lean-forward="false" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/templates/main/skills.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/templates/portefolio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="81" lean-forward="false" selection-start-line="6" selection-start-column="81" selection-end-line="6" selection-end-column="81" />
         </state>
       </provider>
     </entry>
@@ -646,51 +682,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="19" lean-forward="false" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/templates/main/experience.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/templates/main/formation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/templates/main/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/load_data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="223" column="55" lean-forward="false" selection-start-line="223" selection-start-column="55" selection-end-line="223" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/templates/main/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -698,9 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="156" column="61" lean-forward="false" selection-start-line="156" selection-start-column="61" selection-end-line="156" selection-end-column="61" />
-          <folding>
-            <element signature="e#318#327#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,11 +714,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="17">
           <caret line="16" column="96" lean-forward="false" selection-start-line="16" selection-start-column="96" selection-end-line="16" selection-end-column="96" />
           <folding>
             <element signature="e#16#61#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/main/skills.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/main/formation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/main/project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/main/experience.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/load_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4454">
+          <caret line="239" column="0" lean-forward="true" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/main/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

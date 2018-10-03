@@ -21,7 +21,7 @@
       "school": "OpenClassrooms",
       "year": "2018",
       "place": "Online",
-      "description": "This formation (language python) is a formation for learn to developp web application with Python (Django/Flask). This formation allowed me to consolidate my Python skills (that I got during professional experience). In library Python, I could use Pytest (for unit test), PyGame (Create video game on computer) and psycopg (It's use PostgreSQL with Python)."
+      "description": "This training (python language) is the main online propfessional training for web application developpment with Python (Django/Flask). This allowed me to improve my Python skills (acquired during professional experience). In Python libraries, I could use Pytest (for unit test), PyGame (Create video game on computer) and psycopg (use PostgreSQL with Python)."
 
     },
 
@@ -31,7 +31,7 @@
       "school": "IUT Paris Descarte",
       "year": "2015",
       "place": "Paris",
-      "description" : "Professionnal degree Computer system and software is a degree which consolidate my skills in BTEC Higher National Diploma. Programmation langage and database was the same than previous degree (Java, SQL, PHP)."
+      "description" : "Professionnal degree Computer system and software is a degree which consolidate my skills acquired in BTEC Higher National Diploma. Programming langage and database were the same than previous degree (Java, SQL, PHP)."
     },
 
     {
@@ -40,7 +40,7 @@
       "school": "high school Louis Armand",
       "year": "2014",
       "place": "Paris",
-      "description": "The BTS IT Services Organizations Solution Software and Application Business is a diploma that allowed me to acquire the base to develop web applications (PHP, J2EE), mobile (Java, XML) and database management (SQL, MySQL, PostgreSQL)."
+      "description": "BTS IT Services Organizations Solution Software and Application Business is a diploma that allowed me to acquire basics to develop web applications (PHP, J2EE), mobile (Java, XML) and database management (SQL, MySQL, PostgreSQL)."
     },
 
     {
@@ -49,7 +49,7 @@
       "school": "high school Raspail",
       "year": "2011",
       "place": "Paris",
-      "description": "The Bachelor of Science and Industrial Technologies in Electrical Engineering, also called ET for Electrical Engineering and formerly F3 is a Bachelor of Technology prepared in high schools and technology. This baccalaureate is intended for students of 1 st and 12th year of high school who specializes in electrical engineering after a second general and technological or a professional diploma: BEP following a first adaptation."
+      "description": "The Bachelor of Science and Industrial Technologies in Electrical Engineering, also called ET for Electrical Engineering and formerly F3 is a Bachelor of Technology prepared in high schools and technology. This baccalaureate is intended for students of 1 st and 12th year of high school who specializes in electrical engineering or IT."
     }
   ],
 
@@ -58,8 +58,8 @@
       "company": "Omnicom",
       "job": "Python developper",
       "place": "Issy les Moulineaux (92)",
-      "description_mission": "My main mission was the improvement of the application 'CRIT' (Collecte et Remontée d’Informations Terrain) with the framework pylons. CRIT is a digital tool that has a range of features to dynamize and streamline the sharing of information between teams in the field (shop) and those in the client's headquarters. The version of Python used was 2.7",
-      "description_company": "Omnicom is the holding of the second largest network of advertising and global advertising agencies with WPP Group and Publicis. He is present in all communication professions: advertising, direct marketing, public relations, lobbying, marketing department, interactive communication and purchase of space.",
+      "description_mission": "My main task was the improvement of the application 'CRIT' (Collecte et Remontée d’Informations Terrain) with the framework pylons. CRIT is a digital tool wich has a range of features to dynamize and streamline the sharing of information between teams in the field (shops) and customer's headquarters. The version of Python used was 2.7",
+      "description_company": "Omnicom is the holding of the second largest network of advertising and global advertising agencies with WPP Group and Publicis. It is present in all communication areas: advertising, direct marketing, public relations, lobbying, marketing department, interactive communication and purchase of space.",
       "type_experience": "Mission",
       "date_begin": "2017-04-01",
       "date_end": "2017-10-01",
@@ -82,8 +82,8 @@
       "company": "NETEVEN",
       "job": "Python developper",
       "place": "Paris 19e",
-      "description_mission": "My main mission was the maintenance of the software 'Neteven' by the correction of bugs in the software sent via incident tickets. The version of python used was 2.5.",
-      "description_company": "Created in 2015 by the former director of Ebay, Neteven is an e-commerce company specializing in software application publishing. NETEVEN software matches their customers with marketplaces.",
+      "description_mission": "My main mission was the maintenance of the software 'Neteven' by the correction in the software of bugs sent via incident tickets. The version of python used was 2.5.",
+      "description_company": "Created in 2015 by the former director of Ebay, Neteven is an e-commerce company specialized in software application publishing. NETEVEN software matches their customers with marketplaces.",
       "type_experience": "Period training",
       "date_begin": "2016-06-01",
       "date_end": "2016-12-01",
@@ -101,8 +101,8 @@
       "company": "ALYOTECH",
       "job": "Django developper",
       "place": "Antony (92)",
-      "description_mission": "My mission was to better integrate the teams of the Competence Center, to maintain the data dictionary (add, optimize and / or edit) in order to improve / optimize the work of the users within this center. For this mission, I used the Django web framework (1.7) and the Python version 2.7.",
-      "description_company": "Alyotech is a service company specializing in the computer systems and software consulting business sector.",
+      "description_mission": "After integrated the teams of the Competence Center, my main task to maintain the data dictionary (add, optimize and / or edit) in order to improve / optimize the work of the users within this center. For this mission, I used the Django web framework (1.7) and the Python version 2.7.",
+      "description_company": "Alyotech is a service company focused on computer systems and software consulting business sector.",
       "type_experience": "Period training",
       "date_begin": "2015-05-1",
       "date_end": "2015-11-1",
@@ -128,7 +128,7 @@
       "company": "FINANCESTESETUDES",
       "job": "Android developper",
       "place": "Paris 11e",
-      "description_mission": "My mission is develop an Android application to calculate the budget of the student according them resources and needs.",
+      "description_mission": "My mission was to develop an Android application wich calculate the student's budget according to their budget and needs.",
       "description_company": "Financetesetudes.com is a free student loan research and banking service.",
       "type_experience": "Period training",
       "date_begin": "2014-01-01",
@@ -149,7 +149,7 @@
       "company": "PRESSI",
       "job": "PHP developper",
       "place": "Sucy-en-brie (94)",
-      "description_mission": "My mission is coding of a script (in PHP) allowing the migration of data from a proprietary CRM to SugarCRM. The script retrieved all the data from the proprietary CRM, adapted them to the new CRM and then fed them into the database of the new CRM.",
+      "description_mission": "My main task was is coding of a script (in PHP) allowing the migration of data from a proprietary CRM to SugarCRM. The script retrieved all the data from the proprietary CRM, adapted them to the new CRM and then fed them into the database of the new CRM.",
       "description_company": "PRESSI is a company specializing in the business of repairing computers and peripheral equipment.",
       "type_experience": "Period training",
       "date_begin": "2013-06-01",
@@ -174,7 +174,7 @@
       "place": "Paris 4e",
 
       "description_mission": "During this internship, I developed the site www.anapt.fr with HTML / CSS. In partnership with my colleague, our mission was to draw templates and then to develop the website. I took care of the HTML part, and he of the CSS part.",
-      "description_company": "Spaces of meeting and dialogue, the Houses of the associations (MDA), one by district, have for mission to welcome and to accompany the associations in their development and to inform the inhabitants on the associative life local.",
+      "description_company": "Spaces of meeting and dialogue, the Houses of the associations (MDA), one by district, have for mission to welcome and to support the associations in their development and to inform the inhabitants about the local associative life.",
       "type_experience": "Period training",
       "date_begin": "2012-06-01",
       "date_end": "2012-07-01",
@@ -204,7 +204,7 @@
     },
     {
       "name" : "GrandPy bot",
-      "description" : "The GrandPy Bot web application give location (via the Google Maps python library) and description (via the Wikipedia python library) of what user form entry.",
+      "description" : "The GrandPy Bot web application give the location (via the Google Maps python library) and description (via the Wikipedia python library) of what user form entry.",
       "github" : "https://github.com/msadour/oc-grandpybot",
       "link" : "https://oc-grandpybot.herokuapp.com/",
       "period" : "2018-06-01",
@@ -219,7 +219,7 @@
     },
     {
       "name" : "Pur beurre",
-      "description" : "Pur beurre is a web app who find a healthier food substitute for the one you've searched for. The criterion of holiness of a food is measured by its nutriscore (letter 'a' means the maximum of holiness, 'e' the weakest).",
+      "description" : "Pur beurre is a web application which find a healthier food substitute for the one you've searched for. The criterion of healthiness of a food is measured by its nutriscore (letter 'A' means the maximum, 'E' the weakest).",
       "github" : "https://github.com/msadour/pur_beurre",
       "link" : "https://ms-purbeurre.herokuapp.com/home",
       "period" : "2018-08-01",
