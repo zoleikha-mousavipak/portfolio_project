@@ -1,7 +1,18 @@
 /* ******************************** Common ******************************** */
-#header {
-    width: 102%;
-    margin-top: 2.9%;
+@media screen and (max-device-width : 320px)
+{
+    #header {
+        width: 102%;
+        margin-top: 2.9%;
+    }
+}
+
+@media screen and (max-device-width : 1204px)
+{
+    #header {
+        width: 102%;
+        margin-top: 2.9%;
+    }
 }
 
 body {
