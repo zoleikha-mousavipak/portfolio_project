@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20cf70cf-e506-448f-a38f-d74fd4c2d56b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/urls.py" afterPath="$PROJECT_DIR$/portfolio/urls.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/static/files/CV13052018.pdf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/templates/main/home.html" afterPath="$PROJECT_DIR$/portfolio/templates/main/home.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +31,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="272">
               <caret line="16" column="96" lean-forward="false" selection-start-line="16" selection-start-column="96" selection-end-line="16" selection-end-column="96" />
               <folding>
                 <element signature="e#16#61#0" expanded="true" />
@@ -80,11 +80,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/portfolio/templates/main/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="23" column="104" lean-forward="false" selection-start-line="23" selection-start-column="104" selection-end-line="23" selection-end-column="104" />
               <folding />
             </state>
           </provider>
@@ -131,7 +141,6 @@
         <option value="$PROJECT_DIR$/portfolio/forms.py" />
         <option value="$PROJECT_DIR$/portfolio/views.py" />
         <option value="$PROJECT_DIR$/portfolio/load_data.json" />
-        <option value="$PROJECT_DIR$/portfolio/templates/main/home.html" />
         <option value="$PROJECT_DIR$/portfolio/templates/main/project.html" />
         <option value="$PROJECT_DIR$/portfolio/templates/main/experience.html" />
         <option value="$PROJECT_DIR$/portfolio/templates/main/formation.html" />
@@ -139,6 +148,7 @@
         <option value="$PROJECT_DIR$/portfolio/templates/base.html" />
         <option value="$PROJECT_DIR$/portfolio/static/css/style.css" />
         <option value="$PROJECT_DIR$/portfolio/urls.py" />
+        <option value="$PROJECT_DIR$/portfolio/templates/main/home.html" />
       </list>
     </option>
   </component>
@@ -191,6 +201,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -658,24 +708,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/templates/portefolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/templates/main/formation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/templates/main/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -705,7 +741,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="272">
           <caret line="16" column="96" lean-forward="false" selection-start-line="16" selection-start-column="96" selection-end-line="16" selection-end-column="96" />
           <folding>
             <element signature="e#16#61#0" expanded="true" />
@@ -713,10 +749,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/portefolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/main/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="23" column="104" lean-forward="false" selection-start-line="23" selection-start-column="104" selection-end-line="23" selection-end-column="104" />
           <folding />
         </state>
       </provider>
