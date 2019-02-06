@@ -3,16 +3,17 @@
     {"name" :"Python", "level": 90},
     {"name" :"Django", "level": 80},
     {"name" :"Flask", "level": 50},
-    {"name" :"Pycharm", "level": 50},
-    {"name" :"Base de données - SQL" , "level": 70},
+    {"name" :"English" , "level": 70},
+    {"name" :"Databases - SQL" , "level": 70},
     {"name" :"HTML/CSS" , "level": 65},
+    {"name" :"Travis (Integration continuing)" , "level": 50},
     {"name" :"Bootstrap" , "level": 20},
     {"name" :"Javascript (Jquery)" , "level": 40},
-    {"name" :"GitHub" , "level": 40},
+    {"name" :"GitHub" , "level": 60},
     {"name" :"Windows" , "level": 60},
     {"name" :"Linux" , "level": 60},
-    {"name" :"Modelisation (Merise/UML)" , "level": 80},
-    {"name" :"Anglais" , "level": 60}
+    {"name" :"UML" , "level": 80},
+    {"name" :"Pycharm", "level": 50}
   ],
   "Education" : [
     {
@@ -41,15 +42,6 @@
       "year": "2014",
       "place": "Paris",
       "description": "BTS IT Services Organizations Solution Software and Application Business is a diploma that allowed me to acquire basics to develop web applications (PHP, J2EE), mobile (Java, XML) and database management (SQL, MySQL, PostgreSQL)."
-    },
-
-    {
-      "name": "Bachelor of Science and Industrial Technologies",
-      "option": "Electrical (Bachelor) - ",
-      "school": "high school Raspail",
-      "year": "2011",
-      "place": "Paris",
-      "description": "The Bachelor of Science and Industrial Technologies in Electrical Engineering, also called ET for Electrical Engineering and formerly F3 is a Bachelor of Technology prepared in high schools and technology. This baccalaureate is intended for students of 1 st and 12th year of high school who specializes in electrical engineering or IT."
     }
   ],
 
@@ -122,72 +114,6 @@
         {"name" : "Give the possibility to show or hide the data's columns when viewing thems (Javascript) ;"},
         {"name" : "Modification of table in SQLite database in SQL."}
       ]
-    },
-
-    {
-      "company": "FINANCESTESETUDES",
-      "job": "Android developper",
-      "place": "Paris 11e",
-      "description_mission": "My mission was to develop an Android application wich calculate the student's budget according to their budget and needs.",
-      "description_company": "Financetesetudes.com is a free student loan research and banking service.",
-      "type_experience": "Period training",
-      "date_begin": "2014-01-01",
-      "date_end": "2014-03-01",
-      "technologies": [
-        {"name" : "Linux", "is_main": false },
-        {"name" : "Java", "is_main": false },
-        {"name" : "XML",  "is_main": false }
-      ],
-      "tasks": [
-        {"name" : "Creation of application document ;"},
-        {"name" : "Creation of views in XML ;"},
-        {"name" : "Creating calculation functions to associate them with each view."}
-      ]
-    },
-
-    {
-      "company": "PRESSI",
-      "job": "PHP developper",
-      "place": "Sucy-en-brie (94)",
-      "description_mission": "My main task was is coding of a script (in PHP) allowing the migration of data from a proprietary CRM to SugarCRM. The script retrieved all the data from the proprietary CRM, adapted them to the new CRM and then fed them into the database of the new CRM.",
-      "description_company": "PRESSI is a company specializing in the business of repairing computers and peripheral equipment.",
-      "type_experience": "Period training",
-      "date_begin": "2013-06-01",
-      "date_end": "2013-07-01",
-      "technologies": [
-        {"name" : "Linux","is_main": false },
-        {"name" : "PHP", "is_main": false },
-        {"name" : "MySQL", "is_main": false },
-        {"name" : "HTML", "is_main": false },
-        {"name" : "JavaScript", "is_main": false}
-      ],
-      "tasks": [
-        {"name" : "Analysis of the structure of the data to be manipulated ;"},
-        {"name" : "Development of the data migration script ;"},
-        {"name" : "Final execution of the script."}
-      ]
-    },
-
-    {
-      "company": "Maison des associations",
-      "job": "Web developper",
-      "place": "Paris 4e",
-
-      "description_mission": "During this internship, I developed the site www.anapt.fr with HTML / CSS. In partnership with my colleague, our mission was to draw templates and then to develop the website. I took care of the HTML part, and he of the CSS part.",
-      "description_company": "Spaces of meeting and dialogue, the Houses of the associations (MDA), one by district, have for mission to welcome and to support the associations in their development and to inform the inhabitants about the local associative life.",
-      "type_experience": "Period training",
-      "date_begin": "2012-06-01",
-      "date_end": "2012-07-01",
-      "technologies": [
-        {"name" : "Windows", "is_main": false },
-        {"name" : "HTML", "is_main": false },
-        {"name" : "CSS", "is_main": false }
-      ],
-      "tasks": [
-        {"name" : "Drawing template ;"},
-        {"name" : "Create website (HTML/CSS) ;"},
-        {"name" : "Put it on-line"}
-      ]
     }
   ],
   "PersonalProject" : [
@@ -232,7 +158,25 @@
         {"name" : "Jquery", "is_main": false }
       ],
       "num_project": "0"
+    },
+
+    {
+      "name" : "Muscunivers",
+      "description" : "Muscunivers is a social network about fitness.",
+      "github" : "https://github.com/msadour/muscunivers_project",
+      "link" : "https://muscunivers.herokuapp.com",
+      "period" : "2018-11-01",
+      "technologies": [
+        {"name" : "Python", "is_main": false },
+        {"name" : "Django", "is_main": false },
+        {"name" : "PostgreSQL", "is_main": false },
+        {"name" : "HTML/CSS", "is_main": false },
+        {"name" : "Bootstrap", "is_main": false },
+        {"name" : "Jquery", "is_main": false }
+      ],
+      "num_project": "0"
     }
+
   ]
 }
 
