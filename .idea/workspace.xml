@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20cf70cf-e506-448f-a38f-d74fd4c2d56b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/static/css/style.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/templates/main/home.html" afterPath="$PROJECT_DIR$/portfolio/templates/main/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/templates/portefolio.html" afterPath="$PROJECT_DIR$/portfolio/templates/portefolio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/static/css/style.css" afterPath="$PROJECT_DIR$/portfolio/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/templates/main/project.html" afterPath="$PROJECT_DIR$/portfolio/templates/main/project.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/templates/main/skills.html" afterPath="$PROJECT_DIR$/portfolio/templates/main/skills.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/templates/menu/menu.html" afterPath="$PROJECT_DIR$/portfolio/templates/menu/menu.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,21 +22,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portfolio/templates/main/home.html">
+      <file leaf-file-name="portefolio.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/portfolio/templates/portefolio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="17">
+              <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portefolio.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/portfolio/templates/portefolio.html">
+      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portfolio/templates/menu/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -64,7 +67,6 @@
         <option value="$PROJECT_DIR$/portfolio/templates/footer.html" />
         <option value="$PROJECT_DIR$/save" />
         <option value="$PROJECT_DIR$/load_data_fr" />
-        <option value="$PROJECT_DIR$/portfolio/templates/main/skills.html" />
         <option value="$PROJECT_DIR$/portfolio/templates/main/contact.html" />
         <option value="$PROJECT_DIR$/portfolio_project/conf/httpd-prefix.conf" />
         <option value="$PROJECT_DIR$/portfolio_project/conf/httpd-app.conf" />
@@ -78,17 +80,18 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/portfolio_project/settings.py" />
         <option value="$PROJECT_DIR$/portfolio/forms.py" />
-        <option value="$PROJECT_DIR$/portfolio/templates/main/project.html" />
         <option value="$PROJECT_DIR$/portfolio/templates/main/experience.html" />
         <option value="$PROJECT_DIR$/portfolio/templates/main/formation.html" />
         <option value="$PROJECT_DIR$/portfolio/templates/base.html" />
-        <option value="$PROJECT_DIR$/portfolio/static/css/style.css" />
         <option value="$PROJECT_DIR$/portfolio/urls.py" />
-        <option value="$PROJECT_DIR$/portfolio/templates/menu/menu.html" />
         <option value="$PROJECT_DIR$/portfolio/load_data.json" />
         <option value="$PROJECT_DIR$/portfolio/views.py" />
         <option value="$PROJECT_DIR$/portfolio/templates/main/home.html" />
         <option value="$PROJECT_DIR$/portfolio/templates/portefolio.html" />
+        <option value="$PROJECT_DIR$/portfolio/static/css/style.css" />
+        <option value="$PROJECT_DIR$/portfolio/templates/main/project.html" />
+        <option value="$PROJECT_DIR$/portfolio/templates/main/skills.html" />
+        <option value="$PROJECT_DIR$/portfolio/templates/menu/menu.html" />
       </list>
     </option>
   </component>
@@ -158,6 +161,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -331,9 +374,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18680556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18680556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -583,13 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/templates/main/skills.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/templates/main/experience.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -604,27 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/templates/menu/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="74" lean-forward="false" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -636,14 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2771">
           <caret line="163" column="27" lean-forward="false" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/templates/main/project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -674,6 +681,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/main/skills.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/main/project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="74" lean-forward="false" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/menu/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="171" column="10" lean-forward="false" selection-start-line="171" selection-start-column="4" selection-end-line="171" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/templates/main/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -684,8 +731,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/templates/portefolio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
           <folding />
         </state>
       </provider>

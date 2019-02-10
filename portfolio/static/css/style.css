@@ -125,9 +125,16 @@ h4 {
 }
 
 /* ******************************** Main ******************************** */
-
-#home, #formation, #project {
+/* yellow*/
+#home, #formation, #skills {
     background-color: #FFDD33;
+    width: 103%;
+    padding-top: 1em
+}
+
+/* blue*/
+#experience, #contact, #project {
+    background-color: #339CFF;
     width: 103%;
     padding-top: 1em
 }
@@ -145,11 +152,7 @@ h4 {
     width: 20%;
 }
 
-#experience, #skills, #contact {
-    background-color: #339CFF;
-    width: 103%;
-    padding-top: 1em
-}
+
 
 #first_col {
     width: 10%;
