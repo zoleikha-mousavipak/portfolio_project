@@ -2,13 +2,20 @@ from django.db import models
 import datetime
 import django.utils.timezone as tz
 
+
 class Technology(models.Model):
     name = models.CharField(max_length=100)
     is_main = models.BooleanField()
 
+    def __str__(self):
+        return self.name
+
 
 class Task(models.Model):
     name = models.TextField()
+
+    def __str__(self):
+        return self.name
 
 
 class Experience(models.Model):
@@ -23,10 +30,16 @@ class Experience(models.Model):
     technologies = models.ManyToManyField(Technology)
     tasks = models.ManyToManyField(Task)
 
+    def __str__(self):
+        return self.job + " - " + self.company
+
 
 class Skills(models.Model):
     name = models.CharField(max_length=100)
     level = models.IntegerField()
+
+    def __str__(self):
+        return self.name
 
 
 class Education(models.Model):
@@ -37,6 +50,9 @@ class Education(models.Model):
     place = models.CharField(max_length=100)
     description = models.TextField()
 
+    def __str__(self):
+        return self.name
+
 
 class PersonalProject(models.Model):
     name = models.CharField(max_length=100)
@@ -46,4 +62,7 @@ class PersonalProject(models.Model):
     period = models.DateField(default=tz.now())
     technologies = models.ManyToManyField(Technology)
     num_project = models.IntegerField()
+
+    def __str__(self):
+        return self.name
     #img = models.CharField(max_length=100, default='')
