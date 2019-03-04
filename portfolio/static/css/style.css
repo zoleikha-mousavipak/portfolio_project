@@ -7,6 +7,7 @@
 
 #img_header{
     width: 103.153%;
+    height: 90%;
 }
 
 body {
@@ -35,13 +36,13 @@ table {
   color: black
 }
 
-progress::-webkit-progress-value { background: #FFDD33; }
-progress::-moz-progress-bar { background: #FFDD33; }
+progress::-webkit-progress-value { background: #339CFF; }
+progress::-moz-progress-bar { background: #339CFF; }
 
 .progressBar {
   width: 400px;
   height: 22px;
-  background: #fff;
+  background: #339CFF;
   border: 1px solid #FFDD33;
   padding: 3px;
 }
@@ -140,7 +141,9 @@ h4 {
 }
 
 #desc_home {
-    width: 80%;
+    width: 100%;
+    /*border:1px solid black;*/
+    height: 50%;
 }
 
 #photo_me {
