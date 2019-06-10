@@ -109,32 +109,35 @@ h4 {
     margin-left : 30%;
 }
 
-#menu_competences {
+
+#menu_projet {
     margin-left : 45%;
 }
 
-#menu_projet {
+#menu_contact {
     margin-left : 60%;
 }
 
-#menu_contact {
+
+#menu_admin {
     margin-left : 75%;
 }
 
 #menu_empty {
-    margin-left : 91.57%;
+    margin-left : 78.35%;
+    margin-top: -0.65%
 }
 
 /* ******************************** Main ******************************** */
 /* yellow*/
-#home, #formation, #skills {
+#home, #formation, #contact {
     background-color: #FFDD33;
     width: 103%;
     padding-top: 1em
 }
 
 /* blue*/
-#experience, #contact, #project {
+#experience, #project {
     background-color: #339CFF;
     width: 103%;
     padding-top: 1em

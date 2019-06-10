@@ -1,36 +1,42 @@
+{% load static %}
 <h1> Contact me </h1>
-<hr width="80%" class="hr-yellow" />
+<hr width="80%" class="hr-blue" />
 <br />
 
-<form action="/send_mail_to_me" method="post">
-    {% csrf_token %}
-    <table >
-        {% for field in form_contact %}
-        <tbody>
-        <tr>
-          <td>
-            <label for="{{ field.label }}" style="display:inline-block;vertical-align:middle">{{ field.label_tag }}</label>
-          </td>
-          <td>
-            {{ field }}
-          </td>
-        </tr>
+<table >
+    <tbody>
+    <tr>
+      <td>
+        <img src="{% static 'img/gmail.png' %}">
+      </td>
+      <td>
+        <p> : sadour.mehdi@gmail.com</p>
+      </td>
+    </tr>
 
-        {% endfor %}
-        <tr>
-            <td></td>
-            <td>
-                <div class="form-actions">
-                    <button type="submit">Send</button>
-                </div>
 
-            </td>
-        </tr>
+    <tr>
+      <td>
+        <img src="{% static 'img/linkedin.png' %}">
+      </td>
+      <td>
+        : <a href="https://www.linkedin.com/in/mehdisadour/" class="color_with_dark_background">Mehdi Sadour</a>
+      </td>
+    </tr>
 
-        </tbody>
-    </table>
 
-</form>
+    <tr>
+      <td>
+        <img src="{% static 'img/github.png' %}">
+      </td>
+      <td>
+        : <a href="https://github.com/msadour" id="github" class="color_with_dark_background">msadour</a>
+      </td>
+    </tr>
+
+
+    </tbody>
+</table>
 
 
 
